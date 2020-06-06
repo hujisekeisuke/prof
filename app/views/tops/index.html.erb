@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>me</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="heading">
+        <h1 class="title">my,profile</h1>
+        <h1 class="name">藤瀬　圭輔</h1>
+      </div>
+    </header>
+
+    <div class="contents clearfix">
+      <div class="left-content">
+        <table>
+          <tr>
+            <th>日付</th>
+            <th>歴史</th>
+          </tr>
+          <tr>
+            <td>1994年10月28日</td>
+            <td>誕生日</td>
+          </tr>
+          <tr>
+            <td>1999年4月</td>
+            <td>東海大学附属自由が丘幼稚園入園</td>
+          </tr>
+          <tr>
+            <td>2001年4月</td>
+            <td>宗像市立赤間小学校入学</td>
+          </tr>
+          <tr>
+            <td>2007年4月</td>
+            <td>宗像市立城山中学校入学</td>
+          </tr>
+          <tr>
+            <td>2010年4月</td>
+            <td>福岡県立玄界高等学校入学</td>
+          </tr>
+          <tr>
+            <td>2013年4月</td>
+            <td>名桜大学入学</td>
+          </tr>
+        </table>
+     </div>
+
+     <div class="right-content">
+        <h2>興味ある方</h2>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://twitter.com/home">Twitter</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+          </li>
+        </ul>
+
+        <h3>仕事依頼</h3>
+        <form>
+          <input type="text" placeholder="名前を入力してください"><br>
+          <textarea placeholder="予約日時やご希望をお書きください"></textarea><br>
+          <label>
+            <input type="radio" name="RadioGroup1" value="0">男性
+          </label><br>
+          <label>
+            <input type="radio" name="RadioGroup1" value="1">女性
+          </label><br>
+          <select>
+            <option value="0">学生</option>
+            <option value="1">社会人</option>
+          </select>
+          <div class="questionaire">利用は初めてですか？<br>
+            <label>
+              <input type="checkbox" name="Checkbox" value="0">
+                初めて
+            </label>
+            <label>
+              <input type="checkbox" name="Checkbox" value="1">
+                2回目以降
+            </label><br>
+          </div>
+          <input type="submit" value="予約メールを送る">
+        </form>
+      </div>
+     </div>
+   <footer>
+      <h4>バスケ写真</h4>
+        <div class=bsk>
+          <%= image_tag "boy.jpeg" %> 
+          <%= image_tag "boy2.jpeg" %> 
+          <%= image_tag "boy3.jpeg" %> 
+          <%= image_tag "boy4.jpeg" %> 
+        </div>
+    </footer>
+  </body>
+</html>
